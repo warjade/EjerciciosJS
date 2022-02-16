@@ -3,10 +3,13 @@ function app () {
     const odd = [];
     const even = []
 
-    for (item of numbers) {
+    for (let item of numbers) {
+        console.log("item:", item);
+
         // Put your code here
+
     }
 
-    solution.innerText = JSON.stringify(result);
-    app.appendChild(solution);
+    console.log("odd:", odd);
+    console.log("even:", even);
 }
