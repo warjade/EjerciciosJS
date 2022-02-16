@@ -1,6 +1,6 @@
 console.log("Inicio");
 
-console.log("Operación de módulo:");
+console.log("Operación de módulo (resto de una división):");
 console.log("13%10:", 13%10);
 
 console.log("Par/impar");
