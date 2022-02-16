@@ -1,13 +1,12 @@
 function app () {
-    const app = document.querySelector("app");
-    const solution = document.createElement("p");
     const numbers = [22,1,4,3,5,7,8,9,12,11];
-    let result = [];
+    const odd = [];
+    const even = []
 
     for (item of numbers) {
         // Put your code here
     }
 
-    solution.innerText = result;
+    solution.innerText = JSON.stringify(result);
     app.appendChild(solution);
 }
