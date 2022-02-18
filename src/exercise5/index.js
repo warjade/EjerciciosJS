@@ -1,15 +1,6 @@
-const mix = [undefined,22,"1",4,3,"5",7,NaN,8,"9","12",11,null];
+const numbers = [0,1,5,2,7,5,0,0,9,5,5,6];
+let counter = 0;
 
-function classify (item, stringsArray, numbersArray) {
+// Put your code here
 
-    // Put your code here
-
-}
-
-for (let item of mix) {
-    let strings = [];
-    let numbers = [];
-    classify(item, numbers, strings);
-}
-
-console.log("Strings:",strings,"Numbers:",numbers)
+console.log(counter)

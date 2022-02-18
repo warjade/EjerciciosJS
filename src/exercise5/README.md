@@ -1,18 +1,3 @@
-# Is a number?
+# Conditional counter
 
-Completa el código de [index.js](index.js) para separar los numeros y los strings contenidos en el array ```mix```.
-
-El código proporcionado contiene dos errores. Solucionalos.
-
-## typeof
-
-```javascript
-typeof "a" // -> 'string'
-typeof 9 // -> 'number'
-```
-En condicionales:
-```javascript
-if (typeof thisVariable === "string") {
-    console.log("This variable is a string")
-}
-```
+Completa [index.js](index.js) para contar e imprimir la cantidad de veces que el número 5 aparece en el array ```numbers```.
