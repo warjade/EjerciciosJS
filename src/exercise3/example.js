@@ -6,4 +6,4 @@ for (let item of numbers) {
     //sum += item;
 }
 
-console.log(average)
+console.log(sum)
