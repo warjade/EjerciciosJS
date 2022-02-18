@@ -1,13 +1,9 @@
-const numbers = [22,1,4,3,5,7,8,9,12,11];
-const odd = [];
-const even = []
+const mix = [undefined,22,"1",4,3,"5",7,NaN,8,"9","12",11,null];
 
-for (let item of numbers) {
-    console.log("item:", item);
-
+for (let item of mix) {
+    let strings = [];
+    let numbers = [];
     // Put your code here
-
 }
 
-console.log("odd:", odd);
-console.log("even:", even);
+console.log("Strings:",strings,"Numbers:",numbers)

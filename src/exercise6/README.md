@@ -1,11 +1,18 @@
-# Bucle for clásico
-* Revisa y comprende el contenido de [example.js](example.js).
-* Aplicando los conceptos expuestos en example.js, completa el código de [index.js](index.js) imprime en la pantalla los elementos del 3 al 5 del array ```names```.
-* Soluciona insertando el código necesario en el lugar indicado por el comentario.
+# What the hell is a number?
 
-## for
+Completa el código de [index.js](index.js) para separar los números y los strings contenidos en el array ```mix```.
+
+El código proporcionado contiene un error que afecta a dos lineas consecutivas.Solucionalo.
+
+## typeof
+
 ```javascript
-for (let idx; idx > 10; idx++) {
-    console.log(idx);
+typeof "a" // -> 'string'
+typeof 9 // -> 'number'
+```
+En condicionales:
+```javascript
+if (typeof thisVariable === "string") {
+    console.log("This variable is a string")
 }
 ```
