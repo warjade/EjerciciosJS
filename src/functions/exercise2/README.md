@@ -1,28 +1,3 @@
-# Bucle for/of, condicional if
+# Numbers, numbers, numbers...
 
-* Revisa y comprende el contenido de [example.js](example.js).
-* Aplicando los conceptos expuestos en example.js, completa el código de [index.js](index.js) para guardar los números impares del array ```numbers``` en el array ```odd``` y los pares en el array ```even```.
-* Soluciona insertando el código necesario en el lugar indicado por el comentario.
-
-## for / of
-```javascript
-for (let tuvariable of uniterable) {
-    //código a ejecutar
-}
-```
-
-## if
-```javascript
-if ( expresion ) {
-    // Código a ejecutar sólo si expresión == true
-}
-```
-
-## if / else
-```javascript
-if ( expresion ) {
-    // Código a ejecutar sólo si expresión == true
-} else {
-    // Código a ejecutar sólo si expresión != true
-}
-```
+* Revisa el fichero [index.js](index.js) y comprueba el resultado de su ejecución. Hay varios problemas en el. Uno tiene que ver con el concepto de ámbito de las variables y otro con la necesidad de usar nombres claros y significativos en nuestro código. ¿Podrás conseguir solucionar estos problemas y que el programa ofrezca un resultado coherente?.

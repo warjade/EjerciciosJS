@@ -1,13 +1,10 @@
-const numbers = [22,1,4,3,5,7,8,9,12,11];
-const odd = [];
-const even = []
+number = 0;
 
-for (let item of numbers) {
-    console.log("item:", item);
-
-    // Put your code here
-
+function plusone(number) {
+    number = number + 1;
+    return number;
 }
 
-console.log("odd:", odd);
-console.log("even:", even);
+plusone(number);
+
+console.log(number)
