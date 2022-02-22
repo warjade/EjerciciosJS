@@ -1,4 +1,4 @@
-# Copy or reference.
+# One function each function.
 
 Tienes una funcion para buscar el menor número en un rango de un array y otra para intercambiar la posición de dos números en un array. Esto pide a gritos ser empleado para ordenar rangos.
 
