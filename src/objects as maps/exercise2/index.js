@@ -21,6 +21,4 @@ const chrono = [
     },
 ]
 
-// Put your code here
-
-console.log(JSON.stringify(chrono))
+// Put you code here
