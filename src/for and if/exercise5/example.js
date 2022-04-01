@@ -5,4 +5,5 @@ for ( item of numbers ) {
     if ( item >= minimun ) {
         console.log(`${item} is greater or equal to ${minimun}`)
     }
+
 }

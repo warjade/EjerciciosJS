@@ -4,6 +4,13 @@ const numbers3 = [22,6,4,4,5,7,8,9,12,11];
 const numbers4 = [22,9,6,8,5,7,8,9,12,11];
 
 function minorValue(array) {
+    let number = array[0];
+    for(let idx = 1; idx < array.length; idx++){
+        if(array[idx] < number){
+            number = array[idx]; 
+        }
+    }
+    return number
 
     // Put your code here
 

@@ -1,7 +1,9 @@
-
+function vat (price, vatType = 1/2) {
+    return price ** vatType;
+}
 // Put your code here
 
-console.log(power(25))
-console.log(power(8,1/3))
-console.log(power(2,3))
-console.log(power(5,2))
+console.log(vat(25))
+console.log(vat(8,1/3))
+console.log(vat(2,3))
+console.log(vat(5,2))
